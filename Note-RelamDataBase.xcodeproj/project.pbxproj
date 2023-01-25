@@ -7,23 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D101E587297F9AC000A76A26 /* SwipeCellKit in Frameworks */ = {isa = PBXBuildFile; productRef = D101E586297F9AC000A76A26 /* SwipeCellKit */; };
+		D1165021297C39DC0098E34F /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1165020297C39DC0098E34F /* DataBaseHelper.swift */; };
+		D116502A297C49C90098E34F /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = D1165029297C49C90098E34F /* Realm */; };
+		D116502C297C49C90098E34F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D116502B297C49C90098E34F /* RealmSwift */; };
+		D116505E297E68CC0098E34F /* ResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D116505D297E68CC0098E34F /* ResultTableViewController.swift */; };
+		D13DE3D0297BBE7600CDE07C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13DE3CF297BBE7600CDE07C /* Item.swift */; };
+		D13DE3D2297BBF6800CDE07C /* Catagory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13DE3D1297BBF6800CDE07C /* Catagory.swift */; };
 		D15AC5AD2979634000AA37CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15AC5AC2979634000AA37CB /* AppDelegate.swift */; };
 		D15AC5AF2979634000AA37CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15AC5AE2979634000AA37CB /* SceneDelegate.swift */; };
-		D15AC5B12979634000AA37CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15AC5B02979634000AA37CB /* ViewController.swift */; };
 		D15AC5B42979634000AA37CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15AC5B22979634000AA37CB /* Main.storyboard */; };
 		D15AC5B62979634300AA37CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15AC5B52979634300AA37CB /* Assets.xcassets */; };
 		D15AC5B92979634300AA37CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15AC5B72979634300AA37CB /* LaunchScreen.storyboard */; };
+		D15AC5C4297964E000AA37CB /* SubjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15AC5C3297964E000AA37CB /* SubjectTableViewController.swift */; };
+		EE5DAEB556FD6CE08BA19205 /* Pods_Note_RelamDataBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC83616ACDACC7A31766F00 /* Pods_Note_RelamDataBase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CC83616ACDACC7A31766F00 /* Pods_Note_RelamDataBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Note_RelamDataBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		615899F4DF3B664F69319370 /* Pods-Note-RelamDataBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Note-RelamDataBase.release.xcconfig"; path = "Target Support Files/Pods-Note-RelamDataBase/Pods-Note-RelamDataBase.release.xcconfig"; sourceTree = "<group>"; };
+		869F53B0504ACEA1861D44D4 /* Pods-Note-RelamDataBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Note-RelamDataBase.debug.xcconfig"; path = "Target Support Files/Pods-Note-RelamDataBase/Pods-Note-RelamDataBase.debug.xcconfig"; sourceTree = "<group>"; };
+		D1165020297C39DC0098E34F /* DataBaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseHelper.swift; sourceTree = "<group>"; };
+		D116505D297E68CC0098E34F /* ResultTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewController.swift; sourceTree = "<group>"; };
+		D13DE3CF297BBE7600CDE07C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D13DE3D1297BBF6800CDE07C /* Catagory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catagory.swift; sourceTree = "<group>"; };
 		D15AC5A92979634000AA37CB /* Note-RelamDataBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Note-RelamDataBase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15AC5AC2979634000AA37CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D15AC5AE2979634000AA37CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D15AC5B02979634000AA37CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D15AC5B32979634000AA37CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D15AC5B52979634300AA37CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D15AC5B82979634300AA37CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D15AC5BA2979634300AA37CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D15AC5C3297964E000AA37CB /* SubjectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +46,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D101E587297F9AC000A76A26 /* SwipeCellKit in Frameworks */,
+				D116502C297C49C90098E34F /* RealmSwift in Frameworks */,
+				D116502A297C49C90098E34F /* Realm in Frameworks */,
+				EE5DAEB556FD6CE08BA19205 /* Pods_Note_RelamDataBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A428A3FA42DCD57ACDCECC98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				869F53B0504ACEA1861D44D4 /* Pods-Note-RelamDataBase.debug.xcconfig */,
+				615899F4DF3B664F69319370 /* Pods-Note-RelamDataBase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D15AC5A02979634000AA37CB = {
 			isa = PBXGroup;
 			children = (
 				D15AC5AB2979634000AA37CB /* Note-RelamDataBase */,
 				D15AC5AA2979634000AA37CB /* Products */,
+				A428A3FA42DCD57ACDCECC98 /* Pods */,
+				EF21821B1286B1BED6CA8945 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +88,49 @@
 			children = (
 				D15AC5AC2979634000AA37CB /* AppDelegate.swift */,
 				D15AC5AE2979634000AA37CB /* SceneDelegate.swift */,
-				D15AC5B02979634000AA37CB /* ViewController.swift */,
-				D15AC5B22979634000AA37CB /* Main.storyboard */,
+				D15AC5C12979644700AA37CB /* Model */,
+				D15AC5C02979643B00AA37CB /* View */,
+				D15AC5C2297964A000AA37CB /* Controller */,
 				D15AC5B52979634300AA37CB /* Assets.xcassets */,
 				D15AC5B72979634300AA37CB /* LaunchScreen.storyboard */,
 				D15AC5BA2979634300AA37CB /* Info.plist */,
+				D1165020297C39DC0098E34F /* DataBaseHelper.swift */,
 			);
 			path = "Note-RelamDataBase";
+			sourceTree = "<group>";
+		};
+		D15AC5C02979643B00AA37CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D15AC5B22979634000AA37CB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D15AC5C12979644700AA37CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D13DE3D1297BBF6800CDE07C /* Catagory.swift */,
+				D13DE3CF297BBE7600CDE07C /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D15AC5C2297964A000AA37CB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D15AC5C3297964E000AA37CB /* SubjectTableViewController.swift */,
+				D116505D297E68CC0098E34F /* ResultTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF21821B1286B1BED6CA8945 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CC83616ACDACC7A31766F00 /* Pods_Note_RelamDataBase.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +140,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D15AC5BD2979634300AA37CB /* Build configuration list for PBXNativeTarget "Note-RelamDataBase" */;
 			buildPhases = (
+				B7D6916D0F44063E25D6EC32 /* [CP] Check Pods Manifest.lock */,
 				D15AC5A52979634000AA37CB /* Sources */,
 				D15AC5A62979634000AA37CB /* Frameworks */,
 				D15AC5A72979634000AA37CB /* Resources */,
@@ -83,6 +150,11 @@
 			dependencies = (
 			);
 			name = "Note-RelamDataBase";
+			packageProductDependencies = (
+				D1165029297C49C90098E34F /* Realm */,
+				D116502B297C49C90098E34F /* RealmSwift */,
+				D101E586297F9AC000A76A26 /* SwipeCellKit */,
+			);
 			productName = "Note-RelamDataBase";
 			productReference = D15AC5A92979634000AA37CB /* Note-RelamDataBase.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +183,10 @@
 				Base,
 			);
 			mainGroup = D15AC5A02979634000AA37CB;
+			packageReferences = (
+				D1165028297C49C90098E34F /* XCRemoteSwiftPackageReference "realm-swift" */,
+				D101E585297F9AC000A76A26 /* XCRemoteSwiftPackageReference "SwipeCellKit" */,
+			);
 			productRefGroup = D15AC5AA2979634000AA37CB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,14 +209,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B7D6916D0F44063E25D6EC32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Note-RelamDataBase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D15AC5A52979634000AA37CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D15AC5B12979634000AA37CB /* ViewController.swift in Sources */,
+				D13DE3D0297BBE7600CDE07C /* Item.swift in Sources */,
+				D15AC5C4297964E000AA37CB /* SubjectTableViewController.swift in Sources */,
 				D15AC5AD2979634000AA37CB /* AppDelegate.swift in Sources */,
 				D15AC5AF2979634000AA37CB /* SceneDelegate.swift in Sources */,
+				D116505E297E68CC0098E34F /* ResultTableViewController.swift in Sources */,
+				D1165021297C39DC0098E34F /* DataBaseHelper.swift in Sources */,
+				D13DE3D2297BBF6800CDE07C /* Catagory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +387,7 @@
 		};
 		D15AC5BE2979634300AA37CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 869F53B0504ACEA1861D44D4 /* Pods-Note-RelamDataBase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +400,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,14 +408,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.notes.Note-RelamDataBase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D15AC5BF2979634300AA37CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 615899F4DF3B664F69319370 /* Pods-Note-RelamDataBase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,6 +432,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,9 +440,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.notes.Note-RelamDataBase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -356,6 +471,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D101E585297F9AC000A76A26 /* XCRemoteSwiftPackageReference "SwipeCellKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwipeCellKit/SwipeCellKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		D1165028297C49C90098E34F /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D101E586297F9AC000A76A26 /* SwipeCellKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D101E585297F9AC000A76A26 /* XCRemoteSwiftPackageReference "SwipeCellKit" */;
+			productName = SwipeCellKit;
+		};
+		D1165029297C49C90098E34F /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1165028297C49C90098E34F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		D116502B297C49C90098E34F /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1165028297C49C90098E34F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D15AC5A12979634000AA37CB /* Project object */;
 }
